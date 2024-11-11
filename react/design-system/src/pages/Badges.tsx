@@ -41,6 +41,18 @@ function Badges() {
       </div>
 
       <div className="flex gap-6 items-center">
+        <Badge size="sm" color="success">
+          Label
+        </Badge>
+        <Badge size="md" color="success">
+          Label
+        </Badge>
+        <Badge size="lg" color="success">
+          Label
+        </Badge>
+      </div>
+
+      <div className="flex gap-6 items-center">
         <Badge size="sm" color="brand">
           Label
         </Badge>
