@@ -8,6 +8,7 @@ function App() {
       <Routes>
         <Route index element={<HomePage />} />
         <Route path="badge" element={<Badges />} />
+        <Route path="*" element={<p>404</p>} />
       </Routes>
     </BrowserRouter>
   );
