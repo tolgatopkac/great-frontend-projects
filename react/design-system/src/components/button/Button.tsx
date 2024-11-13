@@ -72,7 +72,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button(
     rightIcon,
     ...restProps
   } = props;
-  const className = `inline-flex items-center justify-center rounded-[4px] gap-1 font-medium border-none bg-none outline-inherit p-0 cursor-pointer ${sizeClasses[size]} ${colorClasses[color]}`;
+  const className = `inline-flex w-fit items-center justify-center rounded-[4px] gap-1 font-medium border-none bg-none outline-inherit p-0 cursor-pointer ${sizeClasses[size]} ${colorClasses[color]}`;
 
   return (
     <button ref={ref} className={className} {...restProps}>
