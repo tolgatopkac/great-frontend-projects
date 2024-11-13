@@ -18,13 +18,6 @@
 		lg: 'text-sm px-2.5 py-1'
 	};
 
-	/* 	interface BadgeProps extends HTMLAttributes<HTMLSpanElement> {
-		size?: 'sm' | 'md' | 'lg';
-
-		color?: 'neutral' | 'error' | 'warning' | 'success' | 'brand';
-		children: Snippet;
-	} */
-
 	let {
 		size = 'sm',
 		color = 'neutral',
